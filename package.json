@@ -1,0 +1,29 @@
+{
+  "name": "cache_learning",
+  "version": "1.0.0",
+  "description": "for cache learning purpose only",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuangbuckk/-Learning-Caching-with-Redis.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "Buck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuangbuckk/-Learning-Caching-with-Redis/issues"
+  },
+  "homepage": "https://github.com/kuangbuckk/-Learning-Caching-with-Redis#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "redis": "^4.7.0"
+  }
+}
